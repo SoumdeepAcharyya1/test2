@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Ragistration Page</title>
+</head>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link rel="icon" href="https://cdn.iconscout.com/icon/premium/png-128-thumb/quiz-1428698-1209568.png">
+<link rel="stylesheet" href="Login.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous"
+  referrerpolicy="no-referrer" />
+
+
+<body>
+  <div class="container vh-100">
+    <div class="row justify-content-center h-100">
+      <div class="card w-50 my-auto shadow">
+        <div class="card-heading text-center bg-primary text-white">
+          <h1>Registration</h1>
+        </div>
+        <div class="card-body">
+          <form action="connect.php" method="post">
+            <div class="form-group">
+              <label for="firstName">First Name</label>
+              <input type="text" class="form-control" id="firstName" name="firstName" />
+            </div>
+            <div class="form-group">
+              <label for="lastName">Last Name</label>
+              <input type="text" class="form-control" id="lastName" name="lastName" />
+            </div>
+            <div class="form-group">
+              <label for="gender">Gender</label>
+              <div>
+                <label for="male" class="radio-inline"><input type="radio" name="gender" value="m" id="male" />Male</label>
+                <label for="female" class="radio-inline"><input type="radio" name="gender" value="f" id="female" />Female</label>
+                <label for="others" class="radio-inline"><input type="radio" name="gender" value="o" id="others" />Others</label>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="text" class="form-control" id="email" name="email" />
+            </div>
+            <div class="form-group">
+              <label for="password">Password</label>
+              <input type="password" class="form-control" id="password" name="password" />
+            </div>
+            <div class="form-group">
+              <label for="number">Phone Number</label>
+              <input type="number" class="form-control" id="number" name="number" />
+            </div>
+            <input type="submit" class="btn btn-primary w-100" />
+          </form>
+        </div>
+        <div class="card-footer text-center">
+          <h4>Quiz Website</h4>
+           </div>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <hr>
+    <div class="icon" id="icon">
+      <a href="https://www.facebook.com/soumyadeep.acharyya.1/"><i class="fa-brands fa-facebook fa-xl"></i></a>
+      <a href="https://www.instagram.com/soumyadeep_acharyya__/"><i class="fa-brands fa-instagram fa-xl"></i></a>
+      <a href="https://www.linkedin.com/in/soumyadeep-acharyya-7892211b3/"><i class="fa-brands fa-linkedin fa-xl"></i></a>
+    </div>
+    <br>
+    <div class="Copyright">
+      <h6>©Copyright:S.Acharyya</h6>
+    </div>
+  </footer>
+
+
+
+
+
+
+
+
+
+
+  <!-- bootstrap js -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+
+</html>
